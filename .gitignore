@@ -1,0 +1,20 @@
+# Terraform
+terraform
+terraform_*.zip
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+
+# OS
+.DS_Store

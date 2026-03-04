@@ -1,0 +1,19 @@
+name: gcp-data-engineer
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - jupyter
+  - pandas
+  - numpy
+  - google-cloud-sdk
+  - pip:
+    - google-cloud-storage
+    - google-cloud-bigquery
+    - google-cloud-dataflow
+    - apache-beam[gcp]
+    - pytest
+    - black
+    - flake8
